@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2</title>
+</head>
+<style>
+    table{
+        border-spacing:1px 10px;
+        text-align: left;
+    }
+    td{
+        width: 140px;
+        color: blue;
+    }
+    body{
+        background-color: rgb(242, 255, 170);
+    }
+    h1{
+        color: rgb(0, 110, 255);
+        background-color: rgb(158, 231, 158);
+    }
+    button{
+        width: 86px;
+    }
+</style>
+<body>
+    <form action="">
+        <h1>Dang ky hoc vien</h1>
+       <table>
+            <tr>
+                <td>Ho va ten</td>
+                <td><input type="text" name="Ho va ten" style="width: 300px;"></td>
+            </tr>
+            <tr>
+                <td>Ngay sinh</td>
+                <td><input type="text" name="Ngay sinh" style="width: 100px;"></td>
+            </tr>
+            <tr>
+                <td>Gioi tinh</td>
+                <td>
+                    <input type="radio" name="Gioi tinh" >Nam
+                    <input type="radio" name="Gioi tinh" >Nu
+                </td>
+            </tr>
+            <tr>
+                <td >Dia chi</td>
+                <td><textarea name="Dia chi" id="" cols="35" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Lop</td>
+                <td>
+                    <select name="Lop" id="" style="width: 100px;">
+                        <option value="a">Chon lop</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>Dien thoai</td>
+                <td><input type="text" name="Dien thoai"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Dang ky</button>
+                    <button type="reset">Nhap lai</button>
+                </td>
+            </tr>
+       </table>
+    </form>
+</body>
+</html>
